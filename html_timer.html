@@ -1,0 +1,51 @@
+<style>
+.sect-timer {
+  text-align: center;  
+}
+.sect-timer .cont-timer {
+  display: inline-block;
+  margin: 0px 15px;
+  text-align: center;
+  font-size: 13px;
+  text-align: center;
+}
+.sect-timer .cont-timer .cont-timer_in {
+  border: 3px solid #FAD71E;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sect-timer .cont-timer .cont-timer_in span {
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: bolder;
+}
+.sect-timer .cont-timer span {
+  color: #ffffff;
+}
+</style>
+<div class="sect-timer">
+  <div class="cont-timer">
+    <div class="cont-timer_in">
+      <span id="hourseVal">
+        0
+      </span>
+    </div>
+    <span>часов</span>
+  </div>
+  <div class="cont-timer">
+    <div class="cont-timer_in">
+      <span id="minutesVal">0</span>
+    </div>
+    <span>минут</span>
+  </div>
+  <div class="cont-timer">
+    <div class="cont-timer_in">
+      <span id="secondVal">0</span>
+    </div>
+    <span>секунд</span>
+  </div>
+</div>
